@@ -1,5 +1,5 @@
 FROM centos:centos7
-LABEL maintainer="yourname@somewhere.com"
+LABEL maintainer="anuj.tiwari@nagarro.com"
 
 RUN yum -y install socat && \
    yum clean all
