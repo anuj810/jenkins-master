@@ -1,5 +1,5 @@
 FROM centos:centos7
-LABEL maintainer="mstewart@riotgames.com"
+LABEL maintainer="anuj.tiwari@nagarro.com"
 
 RUN yum makecache \
     && yum update -y \
