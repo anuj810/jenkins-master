@@ -1,4 +1,6 @@
 apache-httpcomponents-client-4-api
+pipeline
+folders
 jdk-tool
 jclouds-jenkins
 token-macro
