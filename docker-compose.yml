@@ -19,9 +19,10 @@ services:
     build: ./jenkins-slave
   proxy:
     build: ./docker-proxy
-    command: -i
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "2375:2375"
     networks:
       jenkins-net:
         aliases:
