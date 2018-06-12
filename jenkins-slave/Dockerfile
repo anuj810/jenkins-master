@@ -1,5 +1,5 @@
 FROM centos:centos7
-LABEL maintainer="mstewart@riotgames.com"
+LABEL maintainer="anuj.tiwari@nagarro.com"
 
 # Install Essentials
 RUN yum update -y && \
